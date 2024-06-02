@@ -22,7 +22,8 @@ function BarChart01({
   const canvas = useRef(null);
   const legend = useRef(null);
   const { currentTheme } = useThemeProvider();
-  const darkMode = currentTheme === 'dark';
+  // const darkMode = currentTheme === 'dark';
+  const darkMode = true;
   const { textColor, gridColor, tooltipBodyColor, tooltipBgColor, tooltipBorderColor } = chartColors;
 
   useEffect(() => {

@@ -46,16 +46,19 @@ function Dashboard() {
         <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
         <main>
-          <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
-          <InputForm />
-            
-          </div>
-          
-
-
+          {/* <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
+           <InputForm />             
+          </div> */}
+            {/* <iframe src="http://localhost:3000/d/bdnluk1r1gcg0b/alerts-overview?orgId=1&refresh=30s&from=1717365041387&to=1717366841387" width="100%" height="1000" style={{height:"1000"}} frameborder="0"></iframe> */}
+            <iframe src="http://localhost:3000/d-solo/bdnluk1r1gcg0b/alerts-overview?orgId=1&refresh=30s&from=1717365041387&to=1717366841387&panelId=8" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://localhost:3000/d-solo/bdnluk1r1gcg0b/alerts-overview?orgId=1&refresh=30s&from=1717365041387&to=1717366841387&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://localhost:3000/d-solo/bdnluk1r1gcg0b/alerts-overview?orgId=1&refresh=30s&from=1717365041387&to=1717366841387&panelId=6" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="https://play.grafana.org/d-solo/000000012/grafana-play-home?orgId=1&from=1717364337027&to=1717367937027&panelId=2" width="450" height="200" frameborder="0"></iframe>
+            <iframe src="http://localhost:3000/d-solo/fdnlwfhdcfd34c/test-example?orgId=1&from=1717346470145&to=1717368070145&panelId=1" width="450" height="200" frameborder="0"></iframe>
         </main>
 
       </div>
+      
     </div>
   );
 }
